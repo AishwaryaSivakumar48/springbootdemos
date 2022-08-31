@@ -49,8 +49,8 @@ class S02springdatajpaApplicationTests {
 	void deleteProduct() {
 		ProductRepository repo = context.getBean(ProductRepository.class);
 		
+		repo.deleteById(13);
 		repo.deleteById(14);
-		repo.deleteById(15);
 	}
 	
 	@Test
