@@ -8,10 +8,10 @@ import com.example.productservice.entity.Product;
 
 public interface ProductRepository extends CrudRepository<Product, Integer>{
 	
-	List<Product> findByName(String name);
-	
-	List<Product> findByPrice(Double price);
-	
-	List<Product> findByNameAndPrice(String name, Double price);
+//	List<Product> findByName(String name);
+//	
+//	List<Product> findByPrice(Double price);
+//	
+//	List<Product> findByNameAndPrice(String name, Double price);
 
 }
